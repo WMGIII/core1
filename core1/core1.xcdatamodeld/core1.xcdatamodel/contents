@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="17709" systemVersion="20D74" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Ads" representedClassName="Ads" syncable="YES" codeGenerationType="class">
+        <attribute name="picUrl" optional="YES" attributeType="String"/>
+        <attribute name="showTime" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="timestamp" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+    </entity>
+    <entity name="Img" representedClassName="Img" syncable="YES" codeGenerationType="class">
+        <attribute name="uiimg" optional="YES" attributeType="Binary"/>
+    </entity>
+    <entity name="Item" representedClassName="Item" syncable="YES" codeGenerationType="class">
+        <attribute name="timestamp" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+    </entity>
+    <elements>
+        <element name="Ads" positionX="-51.39453125" positionY="90.4921875" width="128" height="74"/>
+        <element name="Img" positionX="-9" positionY="99" width="128" height="44"/>
+        <element name="Item" positionX="-63" positionY="-18" width="128" height="44"/>
+    </elements>
+</model>
